@@ -1,0 +1,3 @@
+1. http server
+2. main execution file and modularity: exports
+3. router : url parsing
