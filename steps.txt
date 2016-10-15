@@ -1,3 +1,6 @@
 1. http server
 2. main execution file and modularity: exports
-3. router : url parsing
+3. router : url parsing, redirection of pathnames to handler
+4. requestHandlers: handlers, handle object (in app.js)
+, pass reponse object from server to requestHandlers (server -> router -> requestHandlers) 
+to avoid blocking code, handling postData
